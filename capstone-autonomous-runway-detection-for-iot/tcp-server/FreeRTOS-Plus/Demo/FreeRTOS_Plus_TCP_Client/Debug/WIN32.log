@@ -1,0 +1,11 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.c
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(351,16): warning C4101: 'xCheckTimer': unreferenced local variable
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(350,40): warning C4189: 'ulCheckTimerPeriod_ms': local variable is initialized but not referenced
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(478,26): warning C4013: 'FreeRTOS_FTPClientWork' undefined; assuming extern returning int
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(434,19): warning C4189: 'xInitialBlockTime': local variable is initialized but not referenced
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(433,15): warning C4189: 'pxTCPServer': local variable is initialized but not referenced
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(572,1): warning C4047: 'initializing': 'pixel_t *' differs in levels of indirection from 'pixel_t **'
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(629,40): warning C4057: 'function': 'char *' differs in indirection to slightly different base types from 'uint8_t *'
+C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\main.c(693,30): warning C4018: '<': signed/unsigned mismatch
+  WIN32.vcxproj -> C:\RT\new\FreeRTOS-Plus\Demo\FreeRTOS_Plus_TCP_Client\Debug\RTOSDemo.exe

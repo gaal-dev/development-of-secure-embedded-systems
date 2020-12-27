@@ -1,0 +1,19 @@
+REST (Representational State Transfer) is an architectural style that is stateless, cacheable, scalable, flexible, portable, layered, power and memory efficient, but protocol dependent.
+The fundamental concept in any RESTful API is the resource. A resource is an object with a type, associated data and relationships to other resources.
+Resources are available via HTTP verbs such as GET, POST, PUT, PATCH, DELETE and identified by URIs. There are more HTTP verbs, but these are CRUD (Create, Read, Update, Delete) operations: POST, GET, PUT/PATCH, DELETE. REST resources can be represented via JSON, XML or both.
+REST naming convention is not uniformed therefore these resource archetypes can be chosen: document, collection, store and controller. HTTP(S) is a request-response message model.
+
+For example:
+/dev/
+/dev/leds/
+/dev/leds/1/
+/dev/leds/1/on
+/dev/leds/1/off
+
+SOAP (Simple Object Access Protocol) is a protocol that is not protocol dependent and more secure than REST. SOAP can be used with various protocols such as HTTP, HTTPS, SMTP, AMQP. SOAP can used with a publish-subscribe model.
+SOAP is standardized. Ant SOAP message is an XML document containing the following elements: Envelope (mandatory), Header (optional), Body (mandatory), Fault (optional).
+SOAP is often used with WSDL (Web Services Description Language), UDDI (Universal Description Discovery & Integration) and Web Services Business Process Execution Language (WS-BPEL or briefly BPEL).
+
+https://flylib.com/books/2/439/1/html/2/images/f02mp01.jpg
+
+REST is usually simple to build and adapt in comparison with SOAP. While SOAP focuses on the design of distributed applications, REST does so on scalability and large-scale performance for distributed hypermedia systems.

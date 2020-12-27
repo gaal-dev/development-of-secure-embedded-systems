@@ -1,0 +1,32 @@
+There are several possible topologies: star, line, bus, fully-connected, ring, tree and mesh. I would choose mesh or tree. The mesh is preferable because allows to have reserve channels. The fully-connected is too expensive for a factory. The star, line, bus, ring are not appropriate because connections are easily broken.
+
+Basic criteria: range, data rate, power consumption, cost, complexity
+Basic features: deployment scenario, security, communication paradigm, payload format, compatibility, QoS, communication performance.
+
+The administrative dashboard is centralized, but there are many motion, temperature and air-quality sensors that they belong to telemetry. The dashboard is a request-response system. Publish-subscribe is more appropriate for telemetry. The distance can be several kilometers or meters between factory buildings.
+
+Connectivity protocols:
+Bluetooth, NFC, ZigBee - short range, low data rate
+GSM/Cellular - Long range, high data rate
+LPWAN: SigFox, LoRA - long range, short data rate
+WIFI, Ethernet - short range, high data rate
+
+Ethernet - 100 meters
+WiFi - 100 meters (star)
+Bluetooth - ~10 meters
+Bluetooth Low Energy - > 100 meters
+ZigBee - 100 meters
+RFID - ~100 meters
+GSM - 35 KM
+6LoWPAN - ~200m
+
+Long battery life: LoRA, SigFox - remote monitoring
+
+Communication protocols:
+HTTP, CoAP (HTTP + Device control), MQTT (telemetry), XMPP, DDS
+
+HTTP is a good candidate for the dashboard and administrative access. Sensors can use MQTT that use a publish-subscribe model. Strong security is not required here.
+
+Ethernet, WIFI are fine for communication between factory buildings. GSM is appropriate for long distances.
+
+Bluetooth Low Energy and 6LoWPAN are good candidates for sensors and monitoring. These protocols are power efficient and their payload is binary that is good for channel bandwidth. Intermediate nodes can use Ethernet.

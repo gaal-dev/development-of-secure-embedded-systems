@@ -1,0 +1,17 @@
+CPS (CyberPhysical System) are autonomous and unsupervised. Attackers can compromise availability and integrity of the system.
+
+They can use brute force or more sophisticated attacks.
+
+Denial-of-service attacks can happen on four layers of the TCP/IP model.
+1) link - a physical attack such as channel (radio) jamming
+2) network - spooling MAC parameters
+2/3) transport - flooding and worm propagation
+4) application - exhausting machine's CPU or I/O resources
+
+Attackers can be also corrupt data integrity (data injection - man-in-the-middle) and breach confidentiality (eavesdropping (sniffing) or compromised-key)
+
+Data collect from multiple sources and owned by multiple owners therefore unacceptable latencies are possible.
+
+Data are shared and archival but access and privacy policies change over time. For example, Global Democracy Promotion Act (GDPA) and California Consumer Privacy Act (CCPA) were introduced in 2016 and 2018.
+
+Cryptographic algorithms may be broken as it has happened to MD5, SHA1, DES. The alternatives are SHA512 and AES that also may be broken over time.

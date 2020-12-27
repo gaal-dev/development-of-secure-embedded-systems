@@ -1,0 +1,23 @@
+The difference:
+There are two typer of cipher systems: symmetric and asymmetric
+Decryption and encryption keys are equal for symmetric systems. Asymmetric cipher systems use public and private keys for encryption and decryption. A sender encrypts a message using a public key and the encrypted message is decrypted using a private key by a receiver.
+
+Symmetric algorithm:
+Most wireless access points (APs) come with the ability to enable one of three wireless encryption standards: Wired Equivalent Privacy (WEP), Wi-Fi Protected Access (WPA) or WPA2. WEP uses the RC4 (Rivest Cipher 4) stream cipher for authentication and encryption. Weak security standard. WPA also uses the RC4. WPA2 replaced the RC4 cipher with the Advanced Encryption Standard (AES).
+
+The most common symmetric algorithms are MD5, SHA, DES, AES.
+
+Asymmetric algorithms:
+These algorithms are used for digital signature and with SSL (Secure Sockets Layer)/TLS (Transport Layer Security).
+
+Public key infrastructure (PKI) allows to authenticate communication sides using signed digital certificates. CA (certificate authority or certification authority) issue and sign certificates.
+
+SSL/TLS is a part of HTTPS as SSL/TLS handshake. Clients and servers check public keys.
+1) request-response (SSL Hello)
+a) a client sends a server a hello message to request a connection
+b) a server sends its public key and requests a client certificate
+2) request-response
+a) a client encrypts a session key using the server public key and sends this message
+b) a handshake is done
+
+The most common asymmetric algorithms are RSA (Rivest–Shamir–Adleman), DH (Diffie-Hellman), ECC (Elliptic-curve cryptography).
